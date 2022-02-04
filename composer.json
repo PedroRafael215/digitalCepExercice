@@ -1,0 +1,22 @@
+{
+    "name": "pedro/buscacep",
+    "description": "busca cep",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PedroRafael215",
+            "email": "pedro.rafael215@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "pedro\\buscacep\\": "src/"
+        }
+}
+}
